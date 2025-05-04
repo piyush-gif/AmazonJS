@@ -10,8 +10,6 @@ if(!cart){
     deliveryOptionId : '2',
   }];
 }
-
-
 function saveToStorage() {
   localStorage.setItem('cart', JSON.stringify(cart));
 }
